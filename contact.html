@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOVAFLIX - Contact</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">NOVAFLIX</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Intresseanmälan</h2>
+      <form action="#" method="post">
+        <label>Namn <input type="text" name="name" required></label>
+        <label>E-post <input type="email" name="email" required></label>
+        <label>Favoritgenre
+          <select name="genre">
+            <option>Action</option>
+            <option>Drama</option>
+            <option>Komedi</option>
+            <option>Skräck</option>
+            <option>Sci-fi</option>
+          </select>
+        </label>
+        <label>Meddelande <textarea name="message" rows="4"></textarea></label>
+        <button class="btn" type="submit">Skicka</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Öppettider kundservice</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Dag</th><th>Öppet</th></tr></thead>
+          <tbody>
+            <tr><td>Måndag - Fredag</td><td>09:00 - 18:00</td></tr>
+            <tr><td>Lördag</td><td>10:00 - 16:00</td></tr>
+            <tr><td>Söndag</td><td>Stängt</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul class="social">
+      <li><a href="https://x.com" target="_blank" rel="noopener">X / Twitter</a></li>
+      <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+    <p>&copy; 2026 NOVAFLIX - skolprojekt</p>
+  </footer>
+</body>
+</html>
